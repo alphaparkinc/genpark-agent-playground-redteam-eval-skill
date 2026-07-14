@@ -1,0 +1,27 @@
+{
+  "name": "genpark-agent-playground-redteam-eval-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Redteam hacking evaluator for Agent protection.",
+  "author": "genpark",
+  "category": "security",
+  "tags": [
+    "security",
+    "redteam",
+    "playground"
+  ],
+  "inputs": {
+    "jailbreak_prompts": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "defended_ratio": {
+      "type": "number"
+    },
+    "vulnerability_details": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
